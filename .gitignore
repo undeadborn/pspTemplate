@@ -1,0 +1,11 @@
+### VSCode ###
+.vscode/*
+!.vscode/c_cpp_properties.json
+
+### C ###
+*.o
+*.elf
+
+### PSP ###
+*.PBP
+*.SFO
