@@ -4,7 +4,7 @@
 Visual Studio Code project template for PSP homebrew creation using MINPSP Windows SDK.
 
 What's included in this template?
-* This project uses the Microsoft VSCode C/C++ extension to have the Visual Studio C/C++ features in VSCode (such as IntelliSense), so it includes the `c_cpp_properties.json` VSCode property file with the required configuration to be integrated with MINPSP SDK libraries and PSP GCC compiler. 
+* This project uses the Microsoft VSCode C/C++ extension to have the Visual Studio C/C++ features in VSCode (such as IntelliSense), so it includes the `c_cpp_properties.json` VSCode properties file with the required configuration to be integrated with MINPSP SDK libraries and PSP GCC compiler. 
 * Has been defined a folder structure for the project. Feel free to use it or modify for your project.
 * Includes the `Makefile` file to easily build the resulting `EBOOT.PBP` file using `make` command.
 
@@ -20,7 +20,7 @@ Makefile # the makefile required to build your program
 Remember that any new src file created needs the corresponding `*.o` file to be provided under `OBJS` property in `Makefile` (see main.o and callback.o as example). This is required until I improve the Makefile script.
 
 ## Requirements
-* [MINPSP for Windows](https://sourceforge.net/projects/minpspw/files/latest/download))
+* [MINPSP for Windows](https://sourceforge.net/projects/minpspw/files/latest/download)
 * [Visual Studio Code (aka VSCode)](https://code.visualstudio.com/)
 * [Microsoft C/C++ VSCode extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 * PSP with a CFW installed or [PPSSPP](https://www.ppsspp.org/) emulator.
